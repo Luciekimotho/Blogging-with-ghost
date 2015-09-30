@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://blogging-with-ghost.herokuapp.com',
+        url: 'https://dashboard.heroku.com/apps/blogging-with-ghost/',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -23,7 +23,7 @@ config = {
 
         server: {
             host: '0.0.0.0',
-            port: '2368'
+            port: 'process.env. PORT'
         }
     },
 
@@ -31,7 +31,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'https://blogging-with-ghost.herokuapp.com',
+        url: 'http://blogging-with-ghost.herokuapp.com',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
