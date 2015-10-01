@@ -1,0 +1,3 @@
+[submodule "content/themes/Ghost-Bootstrap-Scroll"]
+	path = content/themes/Ghost-Bootstrap-Scroll
+	url = https://github.com/bmatusiak/Ghost-Bootstrap-Scroll.git
